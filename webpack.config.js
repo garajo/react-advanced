@@ -23,7 +23,7 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin()
   ],
   devServer: {
-    contentBase: './dist',
+    contentBase: './',
     hot: true
   }
 };
